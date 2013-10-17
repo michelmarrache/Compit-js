@@ -1,0 +1,18 @@
+.comps img{
+	display: none;
+}
+#prev_btn,
+#next_btn{
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 50%;
+	z-index: 2;
+	cursor: default;
+}
+#prev_btn{
+	left: 0;
+}
+#next_btn{
+	right: 0;
+}
